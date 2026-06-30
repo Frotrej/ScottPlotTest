@@ -1,0 +1,1 @@
+﻿https://scottplot.net/quickstart/wpf/ - may be solution to draving graphs
