@@ -18,7 +18,11 @@
             <ColumnDefinition Width="50*" />
         </Grid.ColumnDefinitions>
 
-        <wpf:WpfPlot x:Name="PiePlot" Grid.Row="0" Grid.Column="0" IsEnabled="False"/>
+        <wpf:WpfPlot x:Name="WPFPiePlot" Grid.Row="0" Grid.Column="0" IsEnabled="False"/>
+        
+        <wpf:WpfPlot x:Name="WPFScatterPlot" Grid.Row="0" Grid.Column="1" IsEnabled="False"/>
+        
+        <wpf:WpfPlot x:Name="WPFBarPlot" Grid.Row="1" Grid.Column="0" IsEnabled="False"/>
 
     </Grid>
 </Window>
